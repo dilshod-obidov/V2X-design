@@ -48,6 +48,7 @@ void loop() {
     motor2.run(FORWARD); 
     motor3.run(FORWARD); 
     motor4.run(FORWARD);
+    delay(250);
   }
   else
   {
@@ -90,7 +91,7 @@ void compareDistance(){
   motor2.run(BACKWARD);
   motor3.run(BACKWARD); 
   motor4.run(BACKWARD); 
-   delay(300);
+    delay(700);
   motor1.run(BACKWARD);   // go left
   motor2.run(BACKWARD);
   motor3.run(FORWARD); 
